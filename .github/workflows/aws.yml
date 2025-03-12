@@ -11,6 +11,7 @@ env:
   ECS_CLUSTER: Credibanco                    # Nombre del clúster ECS
   ECS_TASK_DEFINITION: ecs-task-def.json     # Ruta al task definition en el repo
   CONTAINER_NAME: credibanco-transactions-service   # Nombre del contenedor en el task definition
+  SPRING_PROFILES_ACTIVE: cloud
 
 jobs:
   build-deploy:
