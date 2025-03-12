@@ -2,6 +2,9 @@ package com.credibanco.transactions.infraestructure.configuration;
 
 import com.credibanco.transactions.application.service.TransactionService;
 import com.credibanco.transactions.domain.port.TransactionRepository;
+import com.credibanco.transactions.infrastructure.client.CardServiceClient;
+import com.credibanco.transactions.infrastructure.configuration.TransactionConfiguration;
+import com.credibanco.transactions.infrastructure.persistence.repository.TransactionJpaRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

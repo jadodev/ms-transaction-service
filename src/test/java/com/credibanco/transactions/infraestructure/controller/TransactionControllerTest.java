@@ -5,6 +5,7 @@ import com.credibanco.transactions.application.service.TransactionService;
 import com.credibanco.transactions.domain.model.Transaction;
 import com.credibanco.transactions.domain.model.TransactionStatus;
 import com.credibanco.transactions.domain.model.TransactionType;
+import com.credibanco.transactions.infrastructure.controller.TransactionController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

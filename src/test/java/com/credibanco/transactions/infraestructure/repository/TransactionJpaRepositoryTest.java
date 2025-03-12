@@ -2,6 +2,8 @@ package com.credibanco.transactions.infraestructure.repository;
 
 import com.credibanco.transactions.domain.model.TransactionStatus;
 import com.credibanco.transactions.domain.model.TransactionType;
+import com.credibanco.transactions.infrastructure.persistence.entity.TransactionEntity;
+import com.credibanco.transactions.infrastructure.persistence.repository.TransactionJpaRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
